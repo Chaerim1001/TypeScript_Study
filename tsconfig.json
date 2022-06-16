@@ -8,5 +8,6 @@
         // https://www.typescriptlang.org/tsconfig#target
         "lib": ["ES6", "DOM"], // 작성한 코드가 어디서 실행 될 지 (DOM: 브라우저 환경에서 실행시킬 것) -  TypeScript includes a default set of type definitions for built-in JS APIs (like Math), as well as type definitions for things found in browser environments (like document).    
         "strict": true,
+        "allowJs": true, // 타입스크립트 내의 자바스크립트 허용
     }
 }
